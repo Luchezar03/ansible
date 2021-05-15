@@ -1,0 +1,4 @@
+---
+- name: Hostname and Distribution
+  debug: 
+    msg: "Hostname is {{ ansible_hostname }}. Distribution is {{ ansible_distribution }}. Distribution version is {{ ansible_distribution_version }}."

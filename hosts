@@ -1,0 +1,9 @@
+[first_group]
+192.168.0.107
+[second_group]
+192.168.0.108
+[third_group]
+192.168.0.109
+[iaas:children]
+first_group
+second_group
